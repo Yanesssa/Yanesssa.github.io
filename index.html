@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="сss/style.css">
+  <link rel="stylesheet" href="./сss/media.css">
+  <title>Интернет-магазин</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <h1>Shine Time</h1>
+
+      <button class="header_menu">
+        <div class="header_menu_line"></div>
+        <div class="header_menu_line"></div>
+        <div class="header_menu_line"></div>
+      </button>
+
+      <nav class="nav">
+        <a class="nav_link" href="#catalog">Catalog</a>
+        <a class="nav_link" href="#stock">Stock</a>
+        <a class="nav_link" href="#reviews">Reviews</a>
+        <a class="nav_link" href="#contact_us">Contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="prime">
+      <div class="wrapper">
+        <div class="prime_div">
+          <h2 class="prime_title">Have to Deal With a Sensitive Skin?</h2>
+          <p class="prime_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+          <a href="#" class="prime_button">SHOP NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog wrapper" id="catalog">
+      <div class="catalog_header">
+        <h2 class="catalog_title">Catalog</h2>
+
+        <div class="catalog_search">
+          <input class="catalog_search_input" type="search" placeholder="Search">
+          <img class="catalog_search_icon" src="img/loupe.svg" alt="search">
+        </div>
+      </div>
+
+      <div class="catalog_wrapper"></div>
+
+      <div class="pagination">
+        <button class="pagination_button pagination_button_left">&lt;</button>
+        <!-- <button class="pagination_button active">1</button>
+        <button class="pagination_button">2</button>
+        <button class="pagination_button">3</button>
+        <button class="pagination_button">...</button>
+        <button class="pagination_button">9</button> -->
+        <button class="pagination_button pagination_button_right">&gt;</button>
+      </div>
+    </section>
+
+    <section class="stock" id="stock"> 
+      <div class="wrapper">
+        <h2 class="stock_title">Stock</h2>
+  
+        <div class="stock_wrapper">
+          <div class="stock_img">
+            <img class="stock_photo" src="img/crem3.png" alt="crem3">
+            <span class="stock_discount">-50%</span>
+          </div>
+  
+          <div class="stock_description">
+            <h3 class="stock_description_title">Name</h3>
+            <div class="stock_description_price">
+              <span class="stock_price_nosale">$100</span>
+              <span class="stock_price_sale">$50</span>
+            </div>
+            <p class="stock_description_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.......Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.......Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.......</p>
+            <button class="stock_description_button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews wrapper" id="reviews">
+      <div class="reviews_header">
+        <h2 class="reviews_title">Reviews</h2>
+        <p class="reviews_subtitle">Leave your feedback!</p>
+      </div>
+
+      <div class="reviews_wrapper">
+        <button class="reviews_arrow reviews_arrow-left">&lt;</button>
+
+        <div class="reviews_list">
+          <div class="reviews_list_wrapper">
+            <div class="reviews_item">
+              <div class="reviews_item_header">
+                <img src="img/icon1.jpg" alt="icon1" class="reviews_item_avatar">
+                <p class="reviews_item_name">Name Name1</p>
+              </div>
+              <p class="reviews_item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            </div>
+  
+            <div class="reviews_item">
+              <div class="reviews_item_header">
+                <img src="img/icon2.jpg" alt="icon2" class="reviews_item_avatar">
+                <p class="reviews_item_name">Name Name2</p>
+              </div>
+              <p class="reviews_item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            </div>
+  
+            <div class="reviews_item">
+              <div class="reviews_item_header">
+                <img src="img/icon3.jpg" alt="icon3" class="reviews_item_avatar">
+                <p class="reviews_item_name">Name Name3</p>
+              </div>
+              <p class="reviews_item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            </div>
+
+            <div class="reviews_item">
+              <div class="reviews_item_header">
+                <img src="img/icon1.jpg" alt="icon1" class="reviews_item_avatar">
+                <p class="reviews_item_name">Name Name4</p>
+              </div>
+              <p class="reviews_item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            </div> 
+
+            <div class="reviews_item">
+              <div class="reviews_item_header">
+                <img src="img/icon2.jpg" alt="icon2" class="reviews_item_avatar">
+                <p class="reviews_item_name">Name Name5</p>
+              </div>
+              <p class="reviews_item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="reviews_arrow reviews_arrow-right">&gt;</button>
+      </div>
+      <button class="reviews_button">LEAVE A REVIEW</button>
+    </section>
+  </main>
+
+  <footer class="contact" id="contact_us"> 
+    <div class="contact_wrapper wrapper">
+      <iframe class="contact_location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.741779927934!2d39.70252976776708!3d47.29369240376674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3c81ccec04ccb%3A0xf4dab3b3537ed53f!2z0KjQsNC50L3QuA!5e0!3m2!1sru!2sru!4v1626110634141!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="contact_description">
+        <h2 class="contact_title">Contact us</h2>
+
+        <p class="contact_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+        <ul class="contact_list">
+          <li class="contact_item">
+            <img class="contact_item_img" src="img/whatsapp.svg" alt="whatsapp">
+            <a class="contact_item_connection" href="https://api.whatsapp.com/send/?phone=79200000000">+7 (777) 777-77-77</a>
+          </li>
+
+          <li class="contact_item">
+            <img class="contact_item_img" src="img/telegram.svg" alt="telegram">
+            <a class="contact_item_connection" href="https://telegram.me/shinetime">@shinetime</a>
+          </li>
+
+          <li class="contact_item">
+            <img class="contact_item_img" src="img/phone-call.svg" alt="phone">
+            <a class="contact_item_connection" href="tel:+77777777777">+7 (777) 777-77-77</a>
+          </li>
+
+          <li class="contact_item">
+            <img class="contact_item_img" src="img/email.svg" alt="email">
+            <a class="contact_item_connection" href="mailto:shinetime@gmail.com">shinetime@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="author">By Yanessa</p>
+  </footer>
+  <script src="js/catalog-data.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>
